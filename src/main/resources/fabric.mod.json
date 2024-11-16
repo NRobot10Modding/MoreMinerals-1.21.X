@@ -3,15 +3,15 @@
 	"id": "moreminerals",
 	"version": "${version}",
 	"name": "More Minerals",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod, which fixes Minecraft's desperate problem of More Minerals!",
 	"authors": [
-		"Me!"
+		"NRbot10!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/moreminerals/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.nrobot10.moreminerals.MoreMineralsDataGenerator"
+		],
+		"client": [
+			"net.nrobot10.moreminerals.MoreMineralsClient"
 		]
 	},
 	"mixins": [
