@@ -1,5 +1,7 @@
 {
   "item.moreminerals.graphite": "Graphite",
   "item.moreminerals.raw_amber": "Raw Amber",
-  "item.moreminerals.amber": "Refined Amber"
+  "item.moreminerals.amber": "Refined Amber",
+
+  "block.moreminerals.graphite_ore": "Graphite Ore"
 }
