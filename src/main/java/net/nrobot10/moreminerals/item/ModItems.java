@@ -28,5 +28,11 @@ public class ModItems {
             entries.add(RAW_AMBER);
             entries.add(AMBER);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(entries -> {
+            entries.add(GRAPHITE);
+            entries.add(RAW_AMBER);
+            entries.add(AMBER);
+        });
     }
 }

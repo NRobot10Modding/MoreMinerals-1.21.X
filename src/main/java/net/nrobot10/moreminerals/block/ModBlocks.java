@@ -26,7 +26,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
-
+    public static final Block AMBER_BLOCK = registerBlock("amber_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.GLASS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -45,6 +47,14 @@ public class ModBlocks {
             entries.add(GRAPHITE_ORE);
             entries.add(GRAPHITE_BLOCK);
             entries.add(AMBER_ORE);
+            entries.add(AMBER_BLOCK);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(entries -> {
+            entries.add(GRAPHITE_ORE);
+            entries.add(GRAPHITE_BLOCK);
+            entries.add(AMBER_ORE);
+            entries.add(AMBER_BLOCK);
         });
     }
 }
