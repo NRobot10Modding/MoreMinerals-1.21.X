@@ -22,6 +22,12 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block AMBER_ORE = registerBlock("amber_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MoreMinerals.MOD_ID, name), block);
@@ -38,6 +44,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(GRAPHITE_ORE);
             entries.add(GRAPHITE_BLOCK);
+            entries.add(AMBER_ORE);
         });
     }
 }
