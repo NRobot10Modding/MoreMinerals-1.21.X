@@ -3,5 +3,6 @@
   "item.moreminerals.raw_amber": "Raw Amber",
   "item.moreminerals.amber": "Refined Amber",
 
-  "block.moreminerals.graphite_ore": "Graphite Ore"
+  "block.moreminerals.graphite_ore": "Graphite Ore",
+  "block.moreminerals.graphite_block": "Block of Graphite"
 }
