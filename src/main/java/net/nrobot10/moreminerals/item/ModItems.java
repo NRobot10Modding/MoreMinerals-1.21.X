@@ -16,6 +16,8 @@ public class ModItems {
 
     public static final Item AMBER = registerItem("amber", new Item(new Item.Settings()));
 
+    public static final Item NO = registerItem("no", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreMinerals.MOD_ID, name), item);
     }
