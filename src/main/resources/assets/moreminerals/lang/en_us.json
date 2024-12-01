@@ -8,5 +8,6 @@
   "block.moreminerals.graphite_ore": "Graphite Ore",
   "block.moreminerals.graphite_block": "Block of Graphite",
   "block.moreminerals.amber_ore": "Amber Ore",
-  "block.moreminerals.amber_block": "Block of Refined Amber"
+  "block.moreminerals.amber_block": "Block of Refined Amber",
+  "block.moreminerals.slate_block": "Block of Slate"
 }
