@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final Item NO = registerItem("no", new Item(new Item.Settings()));
 
+    public static final Item SLATE = registerItem("slate", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreMinerals.MOD_ID, name), item);
     }
@@ -29,12 +31,14 @@ public class ModItems {
             entries.add(GRAPHITE);
             entries.add(RAW_AMBER);
             entries.add(AMBER);
+            entries.add(SLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(entries -> {
             entries.add(GRAPHITE);
             entries.add(RAW_AMBER);
             entries.add(AMBER);
+            entries.add(SLATE);
         });
     }
 }
