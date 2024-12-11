@@ -20,6 +20,8 @@ public class ModItems {
 
     public static final Item SLATE = registerItem("slate", new Item(new Item.Settings()));
 
+    public static final Item DUCK = registerItem("duck_thing", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreMinerals.MOD_ID, name), item);
     }
