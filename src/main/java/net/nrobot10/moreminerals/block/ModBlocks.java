@@ -16,11 +16,11 @@ public class ModBlocks {
 
     public static final Block GRAPHITE_ORE = registerBlock("graphite_ore",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block GRAPHITE_BLOCK = registerBlock("graphite_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block AMBER_ORE = registerBlock("amber_ore",
             new Block(AbstractBlock.Settings.create().strength(4f)
@@ -31,6 +31,10 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.GLASS)));
 
     public static final Block SLATE_BLOCK = registerBlock("slate_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SLATE_ORE = registerBlock("slate_ore",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
@@ -53,6 +57,7 @@ public class ModBlocks {
             entries.add(AMBER_ORE);
             entries.add(AMBER_BLOCK);
             entries.add(SLATE_BLOCK);
+            entries.add(SLATE_ORE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(entries -> {
@@ -61,6 +66,7 @@ public class ModBlocks {
             entries.add(AMBER_ORE);
             entries.add(AMBER_BLOCK);
             entries.add(SLATE_BLOCK);
+            entries.add(SLATE_ORE);
         });
     }
 }
