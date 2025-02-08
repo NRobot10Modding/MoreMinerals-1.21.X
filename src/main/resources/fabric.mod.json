@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/NRobot10Modding/",
 		"sources": "https://github.com/NRobot10Modding/MoreMinerals-1.21.X/"
 	},
-	"license": "MIT",
+	"license": "Creative Commons Legal Code",
 	"icon": "assets/moreminerals/icon.png",
 	"environment": "*",
 	"entrypoints": {
