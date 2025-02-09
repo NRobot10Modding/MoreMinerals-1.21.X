@@ -5,11 +5,13 @@
   "item.moreminerals.no": "NO",
   "item.moreminerals.slate": "Slate",
   "item.moreminerals.duck_thing": "DOOOOOOOOOOOOOOOOOOOOOOOOOK",
+  "item.moreminerals.amber_brick": "Amber Brick",
 
   "block.moreminerals.graphite_ore": "Graphite Ore",
   "block.moreminerals.graphite_block": "Block of Graphite",
   "block.moreminerals.amber_ore": "Amber Ore",
   "block.moreminerals.amber_block": "Block of Refined Amber",
   "block.moreminerals.slate_block": "Block of Slate",
-  "block.moreminerals.slate_ore": "Slate Ore"
+  "block.moreminerals.slate_ore": "Slate Ore",
+  "block.moreminerals.amber_bricks": "Amber Bricks"
 }
